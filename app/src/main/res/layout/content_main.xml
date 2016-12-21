@@ -42,4 +42,10 @@
         android:id="@+id/b5"
         android:text="BUTTON 5"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b6"
+        android:text="BUTTON 6"/>
+
 </LinearLayout>
