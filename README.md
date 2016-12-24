@@ -74,11 +74,13 @@ Basic useful feature list:
    ```java
 	  dialog.setBackground(Drawable drawableBackground);
   	  // to set a speccific color use
-      dialog.setBackground(new ColorDrawable(Color.rgb(66, 244, 167))); // plug in the the RGB values of the required color.
+	  
+      dialog.setBackground(new ColorDrawable(Color.rgb(66, 244, 167))); 
+      // plug in the the RGB values of the required color.
       // or: 
       dialog.setBackground(new ColorDrawable(Color.argb(255, 66, 244, 167)));
       // the first parameter is the alpha value [0, 255]
- 	 ```
+   ```
  * Block clicks outside the Dialog
  	
     ```java
